@@ -7,6 +7,7 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
+        - REST:
+            depends: PhpBrowser
             url: "%APP_URL%"
         - \Helper\Acceptance

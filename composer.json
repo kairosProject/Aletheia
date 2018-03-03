@@ -1,6 +1,7 @@
 {
     "require": {
         "codeception/codeception": "^2.4",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "flow/jsonpath": "^0.3.4"
     }
 }
